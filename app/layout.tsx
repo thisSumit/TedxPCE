@@ -26,7 +26,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} dark ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} dark ${geistMono.variable} overflow-x-hidden antialiased`}
       >
         <FloatingNav />
         {children}
