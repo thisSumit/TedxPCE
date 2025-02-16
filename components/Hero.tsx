@@ -6,7 +6,7 @@ const Hero = () => {
     return (
         <div className="flex flex-col h-screen w-full items-start justify-start">
             <div className='h-screen w-full absolute'>
-                <AuroraBackground children={undefined} />
+                <AuroraBackground> </AuroraBackground>
             </div>
             <div className='pt-16'>
                 <p className="text-lg mt-4">We’re Movement towards</p>
