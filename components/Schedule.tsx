@@ -5,7 +5,7 @@ import { speakerData } from '@/data';
 const Schedule = () => {
     return (
         <div className='my-8 h-full w-full flex items-start justify-center'>
-            <div className='flex items-center shadow-lg flex-col bg-black dark:bg-white dark:text-black text-white p-8 broder border-gray-400 rounded-lg'>
+            <div className='flex items-center shadow-lg w-[950px] flex-col bg-black dark:bg-white dark:text-black text-white p-8 broder border-gray-400 rounded-lg'>
 
                 <div className='my-2'>
                     <p className='text-center'>TIME TABLE</p>
@@ -38,7 +38,7 @@ const Schedule = () => {
                         ))}
                     </div>
 
-                    <div className='flex items-center gap-4 my-4'>
+                    <div className='flex items-center gap-4 my-10'>
                         <div className='border-b w-full h-1'></div>
                         <div className='font-bold uppercase text-redx'>Break</div>
                         <div className='border-b w-full h-1'></div>
@@ -74,12 +74,12 @@ const Schedule = () => {
                         <p className='text-redx font-medium'>SURESH BHAT SABHAGRUH, RESHIMBAG, NAGPUR</p>
                     </div>
 
-<div className='flex mt-8 items-center w-full justify-center'>
-<button className="border hover:bg-redx duration-500 hover:backdrop-blur-lg text-nowrap relative border-neutral-800 dark:border-black/[0.2] text-black dark:text-black px-8 py-4 rounded-full">
-                        Buy Ticket
-                        <span className="absolute inset-x-0 w-1/2 mx-auto -bottom-px bg-gradient-to-r from-transparent via-red-500 to-transparent  h-px" />
-                    </button>
-</div>
+                    <div className='flex mt-8 items-center w-full justify-center'>
+                        <button className="border hover:bg-redx duration-500 hover:backdrop-blur-lg text-nowrap relative border-neutral-800 dark:border-black/[0.2] text-black dark:text-black px-8 py-4 rounded-full">
+                            Buy Ticket
+                            <span className="absolute inset-x-0 w-1/2 mx-auto -bottom-px bg-gradient-to-r from-transparent via-red-500 to-transparent  h-px" />
+                        </button>
+                    </div>
                     <div />
                 </div></div>
         </div>

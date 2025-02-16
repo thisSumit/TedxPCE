@@ -1,5 +1,6 @@
 import type { Config } from "tailwindcss";
 import plugin from "tailwindcss/plugin";
+// @ts-ignore
 import flattenColorPalette from "tailwindcss/lib/util/flattenColorPalette";
 
 const addVariablesForColors = plugin(({ addBase, theme }) => {
@@ -9,7 +10,7 @@ const addVariablesForColors = plugin(({ addBase, theme }) => {
   );
 
   addBase({
-    ":root": newVars,
+    ":root": newVars as { [key: string]: string },
   });
 });
 

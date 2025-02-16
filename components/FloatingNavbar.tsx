@@ -1,16 +1,15 @@
 "use client";
-import React, { JSX, useState } from "react";
+import React, { useState } from "react";
 import {
     motion,
     AnimatePresence,
     useScroll,
     useMotionValueEvent,
-    px,
 } from "framer-motion";
 import Link from "next/link";
 import Image from "next/image";
 import { cn } from "@/lib/utils";
-import { FiHome, FiMail, FiMenu, FiMic, FiShoppingCart, FiUser, FiUsers } from "react-icons/fi";
+import { FiHome, FiMail, FiMenu, FiMic, FiUser, FiUsers } from "react-icons/fi";
 
 export const FloatingNav = () => {
     const { scrollYProgress } = useScroll();
