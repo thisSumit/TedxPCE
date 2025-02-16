@@ -5,7 +5,7 @@ import { speakerData } from '@/data';
 const Schedule = () => {
     return (
         <div className='my-8 h-full w-full flex items-start justify-center'>
-            <div className='flex items-center shadow-lg w-[950px] flex-col bg-black dark:bg-white dark:text-black text-white p-8 broder border-gray-400 rounded-lg'>
+            <div className='flex items-center max-w-7xl mx-auto shadow-lg flex-col bg-black dark:bg-white dark:text-black text-white md:p-8 p-4 broder border-gray-400 rounded-lg'>
 
                 <div className='my-2'>
                     <p className='text-center'>TIME TABLE</p>
@@ -71,7 +71,7 @@ const Schedule = () => {
                     </div>
                     <div className='flex flex-col items-center justify-between gap-0 w-full'>
                         <p className='pt-4'>ADDRESS</p>
-                        <p className='text-redx font-medium'>SURESH BHAT SABHAGRUH, RESHIMBAG, NAGPUR</p>
+                        <p className='text-redx font-medium leading-5 text-center'>SURESH BHAT SABHAGRUH, RESHIMBAG, NAGPUR</p>
                     </div>
 
                     <div className='flex mt-8 items-center w-full justify-center'>
