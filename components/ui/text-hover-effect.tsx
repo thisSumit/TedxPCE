@@ -32,7 +32,7 @@ export const TextHoverEffect = ({
       ref={svgRef}
       width="100%"
       height="100%"
-      viewBox="0 0 300 100"
+      viewBox="0 0 400 100"
       xmlns="http://www.w3.org/2000/svg"
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
@@ -91,8 +91,8 @@ export const TextHoverEffect = ({
         y="50%"
         textAnchor="middle"
         dominantBaseline="middle"
-        strokeWidth="0.3"
-        className="font-[helvetica] font-bold stroke-neutral-200 dark:stroke-neutral-800 fill-transparent text-7xl  "
+        strokeWidth="0.8"
+        className="font-[helvetica] font-black stroke-neutral-200 dark:stroke-neutral-800 fill-transparent text-7xl  "
         style={{ opacity: hovered ? 0.7 : 0 }}
       >
         {text}
@@ -102,8 +102,8 @@ export const TextHoverEffect = ({
         y="50%"
         textAnchor="middle"
         dominantBaseline="middle"
-        strokeWidth="0.3"
-        className="font-[helvetica] font-bold fill-transparent text-7xl   stroke-neutral-200 dark:stroke-neutral-500"
+        strokeWidth="0.8"
+        className="font-[helvetica] font-black fill-transparent text-7xl   stroke-neutral-200 dark:stroke-neutral-500"
         initial={{ strokeDashoffset: 1000, strokeDasharray: 1000 }}
         animate={{
           strokeDashoffset: 0,
@@ -122,9 +122,9 @@ export const TextHoverEffect = ({
         textAnchor="middle"
         dominantBaseline="middle"
         stroke="url(#textGradient)"
-        strokeWidth="0.6"
+        strokeWidth="0.8"
         mask="url(#textMask)"
-        className="font-[helvetica] font-bold fill-transparent text-7xl  "
+        className="font-[helvetica] font-black fill-transparent text-7xl  "
       >
         {text}
       </text>

@@ -47,7 +47,7 @@ export const FloatingNav = () => {
                     duration: 0.2,
                 }}
                 className={cn(
-                    "flex bg-black/10 backdrop-blur-lg bg-blend-exclusion fixed inset-x-0 z-[5000] items-center lg:justify-evenly justify-between p-4 space-x-4",
+                    "flex bg-black/10 backdrop-blur-lg bg-blend-exclusion fixed inset-x-0 z-[5000] items-center lg:justify-evenly justify-between p-4 md:space-x-4",
                 )}
             >
                 <div className="hidden lg:flex items-center mix-blend-difference w-full justify-center gap-8">
@@ -57,7 +57,7 @@ export const FloatingNav = () => {
                 </div>
 
                 <Image
-                    className="justify-center mt-4 items-center cursor-pointer mx-5 px-5"
+                    className="justify-center mt-4 items-center cursor-pointer md:mx-5 px-5"
                     src="/tedxpce-w.svg"
                     width={200}
                     height={200}

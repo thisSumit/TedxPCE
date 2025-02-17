@@ -12,7 +12,7 @@ import {
 
 export function Bento() {
   return (
-    <div className="flex my-32 mx-auto flex-col items-center justify-center w-full h-full">
+    <div className="p-4 flex my-32 mx-auto flex-col items-center justify-center w-full h-full">
         <div className="flex flex-col items-start gap-2 max-w-7xl my-8">
         <h2 className="text-redx">Reason to Attend</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis error inventore aliquid sapiente ipsa laudantium ducimus quas assumenda commodi. Quod dignissimos nesciunt mollitia sed asperiores nisi adipisci expedita, illo totam.</p>

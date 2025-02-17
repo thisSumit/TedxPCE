@@ -8,7 +8,7 @@ const Hero = () => {
             <div className='h-screen w-full absolute'>
                 <AuroraBackground> </AuroraBackground>
             </div>
-            <div className='pt-16'>
+            <div className='my-20 p-4'>
                 <p className="text-lg mt-4">We’re Movement towards</p>
                 <h1 className="text-5xl font-bold text-redx">FUTURE</h1>
                 <p>We’re <span className='text-redx font-black'>TED</span> Community

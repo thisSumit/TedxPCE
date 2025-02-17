@@ -4,7 +4,7 @@ import { speakerData } from '@/data';
 
 const Schedule = () => {
     return (
-        <div className='my-8 h-full w-full flex items-start justify-center'>
+        <div className='p-4 my-8 h-full w-full flex items-start justify-center'>
             <div className='flex items-center max-w-7xl mx-auto shadow-lg flex-col bg-black dark:bg-white dark:text-black text-white md:p-8 p-4 broder border-gray-400 rounded-lg'>
 
                 <div className='my-2'>
