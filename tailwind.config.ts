@@ -14,6 +14,10 @@ const addVariablesForColors = plugin(({ addBase, theme }) => {
   });
 });
 
+module.exports = {
+  darkMode: "class",
+};
+
 const config = {
   darkMode: ["class"],
   content: [
